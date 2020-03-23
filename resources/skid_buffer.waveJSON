@@ -1,0 +1,15 @@
+{ "signal" : [
+  { "name": "clk",    "wave": "P............" },
+  [ "Upstream", 
+  { "name": "iData",  "wave": "x2345.67..x..", "data": ["0", "1", "2", "3", "4", "5"] },
+  { "name": "iValid", "wave": "01..........." },
+  { "name": "oReady", "wave": "1...01..0.1.." }
+   ],
+  [ "Downstream", 
+  { "name": "oData",  "wave": "x.23.456..7x.", "data": ["0", "1", "2", "3", "4", "5"] },
+  { "name": "oValid", "wave": "0.1.........." },
+  { "name": "iReady", "wave": "1..01..0.1..." },
+   ],
+  { "name": "rData",  "wave": "x...4x..7.x..", "data": ["2", "5"] },
+  { "name": "rValid", "wave": "0...10..1.0.." }
+]}
